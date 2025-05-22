@@ -1,7 +1,6 @@
 # pyInstaller_setup_exe
-pyInstaller를 이용해서 1File exe를 만들고   
-최종 적으로 setup_.exe 배포 파일을 만드는 과정
-
+## pyInstaller
+### 이 패키지는 1개의 실행 가능한 exe 파일을 만드는 것이다      
 1. 기존 완성된 프로젝트에 pyInstaller를 설치 한다.
    ```
    pip install pyinstaller
@@ -38,6 +37,20 @@ pyInstaller를 이용해서 1File exe를 만들고
    res 폴더를 그곳에 복사 한다.
 
    <img width="431" alt="image" src="https://github.com/user-attachments/assets/faeed5cc-3103-4584-b07b-868a87e5de44" />
+
+5. 실행 결과
+   dist 폴더 내의 app.exe를 실행 하면 다음과 같은 결과를 볼수 있다
+   <img width="491" alt="image" src="https://github.com/user-attachments/assets/296cad44-469b-4dd0-96fe-7f52632700f7" />
+6. 완벽해 보이지만 하나의 애러가 있다.  그것은 터미널창 또는 Console 창이 보이는 것이다.      
+7. 콘솔창을 안보이게 하는 것은 -w 옵션이다.
+   ```
+   pyinstaller -w -F app.py
+   ```   
+8. 1파일로 패키징이 된 폴더는 다음과 같다.
+   <img width="419" alt="image" src="https://github.com/user-attachments/assets/29096aa8-d99f-4621-8ada-41c3489aea4b" />
+
+## installFactory 
+### 배포용 setup_.exe 파일을 만드는 것이다. 
 
    
    
