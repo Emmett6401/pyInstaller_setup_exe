@@ -49,6 +49,9 @@
 8. 1파일로 패키징이 된 폴더는 다음과 같다.
    <img width="419" alt="image" src="https://github.com/user-attachments/assets/29096aa8-d99f-4621-8ada-41c3489aea4b" />
 
+9. 최종 실행 화면
+    <img width="206" alt="image" src="https://github.com/user-attachments/assets/6021ede7-3eb3-41ae-b488-e370bc9a865c" />
+
 ## installFactory 
 ### 배포용 setup_.exe 파일을 만드는 것이다. 
 
