@@ -8,4 +8,30 @@ pyInstaller를 이용해서 1File exe를 만들고
    ```
    <img width="400" alt="image" src="https://github.com/user-attachments/assets/da112ce8-6320-47fc-801e-5979dcc46419" />
 
+2. 터미널에서
+   ```
+   pyinstaller app.py
+   ```
+   여기서 app.py는 내가 실행 하려고 하는 파일의 이름 이다.
+   
+3. 결과는 dist 폴더에 저장 된다.
+   <img width="139" alt="image" src="https://github.com/user-attachments/assets/3ef787ad-7b28-4e6a-86b4-66efcaccb60c" />
+   간단하게 보이지만 실제로
+   _internal 폴더에는 정말 많은 파일들이 포함 되어 있다.
+   실제 만들어진 app.exe가 실행 되는데 필요한 부속 파일들이다.
+
+   <img width="122" alt="image" src="https://github.com/user-attachments/assets/76042284-3b20-4c49-af88-d8aaeca0e6d6" />
+
+   이 모든 파일들을 1개의 exe 파일로 만들어야 한다.
+   현재 상태에서는 그렇다고 해서 프로그램이 실행이 되는것도 아니다.
+   이유는 필요한 res 폴더같은 부속 파일들이 dist 폴더에 없기 때문이다.    res 폴더를 app.exe 가 있는 폴더에 복사 해 주면 실행 된다.
+   <img width="487" alt="image" src="https://github.com/user-attachments/assets/19cdb632-48d7-42d3-8ecd-b3c4442d882a" />
+ 
+   
+
+
+   
+   
+   
+
    
