@@ -90,6 +90,18 @@
 또는 프로그램 설치 도중에 실행 해야만 하는 파일을 지정
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/2eda198c-30ce-4a00-96ac-9076659a3c38" />
 
+### 만들기 
+
+<img width="559" alt="image" src="https://github.com/user-attachments/assets/b5555ae4-7605-4f81-9dfc-563b1622a7bf" />
+
+### 설치 실행 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/1bc9aa3d-0038-4d75-84f3-df6d981442d4" />
+
+### 바로가기로 실행 
+<img width="358" alt="image" src="https://github.com/user-attachments/assets/8198cb03-c1d8-4d3d-b2c3-a89c563393ed" />
+
+### 끝
+
 
 
 
